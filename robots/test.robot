@@ -1,7 +1,14 @@
 *** Settings ***
+Documentation     Simple example test
+
 Library    ../libraries/custom_library.py
 
-*** Test Cases ***
+*** Variables ***
+${NAME}    World
 
-Test Python Keyword
-    Hello Keyword    John
+*** Test Cases ***
+My First Test
+     Say Hello    ${NAME}
+
+Quick Hello Test
+    Log To Console    Hello Robot Framework!

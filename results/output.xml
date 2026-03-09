@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-09T16:54:23.644849" rpa="false" schemaversion="5">
+<suite id="s1" name="QAAutomation" source="C:\Users\karol\Documents\QAAutomation">
+<suite id="s1-s1" name="Robots" source="C:\Users\karol\Documents\QAAutomation\robots">
+<suite id="s1-s1-s1" name="Test" source="C:\Users\karol\Documents\QAAutomation\robots\test.robot">
+<test id="s1-s1-s1-t1" name="Quick Hello Test" line="13">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello Robot Framework!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-09T16:54:23.750103" elapsed="0.000910"/>
+</kw>
+<status status="PASS" start="2026-03-09T16:54:23.740567" elapsed="0.011219"/>
+</test>
+<doc>Simple example test</doc>
+<status status="PASS" start="2026-03-09T16:54:23.724963" elapsed="0.050458"/>
+</suite>
+<status status="PASS" start="2026-03-09T16:54:23.718996" elapsed="0.064022"/>
+</suite>
+<status status="PASS" start="2026-03-09T16:54:23.651748" elapsed="0.135824"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="QAAutomation" id="s1" pass="1" fail="0" skip="0">QAAutomation</stat>
+<stat name="Robots" id="s1-s1" pass="1" fail="0" skip="0">QAAutomation.Robots</stat>
+<stat name="Test" id="s1-s1-s1" pass="1" fail="0" skip="0">QAAutomation.Robots.Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-03-09T16:54:23.727738" level="WARN">Imported library 'C:\Users\karol\Documents\QAAutomation\libraries\custom_library.py' contains no keywords.</msg>
+</errors>
+</robot>
