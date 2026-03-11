@@ -7,8 +7,6 @@ Library    ../libraries/custom_library.py
 ${NAME}    World
 
 *** Test Cases ***
-My First Test
-     Say Hello    ${NAME}
 
 Quick Hello Test
     Log To Console    Hello Robot Framework!
